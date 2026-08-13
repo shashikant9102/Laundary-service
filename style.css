@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 5vw;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  font-size: 28px;
+  font-weight: 700;
+  color: #333d47;
+  vertical-align: middle;
+}
+
+.nav-links {
+  display: inline-block;
+  width: 58%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00a2ff;
+}
+
+.user-container {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.user-badge {
+  display: inline-block;
+  padding: 0px 24px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #e6f7ff;
+  color: #00a2ff;
+  font-weight: 600;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.hero {
+  width: 100vw;
+  height: 90vh;
+  padding: 0 5vw;
+  white-space: nowrap; 
+}
+
+
+.hero-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  white-space: normal; 
+  padding-right: 4vw;
+  padding-top: 15vh;
+}
+
+.hero-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #2c3e50;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00a2ff;
+  display: inline;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #8c98a4;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  max-width: 90%;
+}
+
+.cta-button {
+  background-color: #00a2ff;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0082cc;
+}
+
+.hero-right {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 8vh;
+}
+
+.hero-image {
+  max-width: 85%;
+  max-height: 75vh;
+  object-fit: contain;
+}
